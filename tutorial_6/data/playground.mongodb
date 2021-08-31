@@ -11,6 +11,7 @@
 use('cities');
 
 db.cities.insertOne(
+  // to rewrite the default mongo ID, we should use _id, not id as in this example:
     {"id":3,"name":"Skiathos","settled":1207,"picture":"https://th.bing.com/th/id/R.e5f0af654b1100dd71dabd3289d9f434?rik=n12aMe01SyqIMg&pid=ImgRaw&r=0","places":["Lalaria Beach","Agios Nikolaos Church and Clock Tower","monastero di Panagia Evangelistria","The Blue House Art Gallery"],"description":"Skiathos is the most popular of the Greek islands of the Sporades group, in the Aegean sea. Boasting a beautiful- packed with pine trees- natural landscape and having over 60 stunning beaches, Skiathos Greece is a paradise for nature lovers! Skiathos Greece might be a small island, but it attracts thousands of visitors every summer!","country":"Greece" }
 )
 
